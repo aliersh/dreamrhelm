@@ -95,16 +95,38 @@ body {
 #nav-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2em;
+    gap: 1.5em;
+    padding-top: 2.5rem;
 }
 
 .button-link {
-    width: 80%;
+    width: 11.5em;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    border: 1px solid #fff;
-    padding: 0.5em
+    border: 0.5px solid #fff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-link span::before {
+    content: "";
+    margin: 0;
+    transition: margin 0.3s ease-in-out;
+}
+
+.button-link:hover span::before {
+    margin: 0.3em;
+}
+
+.fa-chevron-right {
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-link:hover .fa-chevron-right {
+    transform: translateX(-0.5em)
 }
 
 #landing-video {

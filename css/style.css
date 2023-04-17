@@ -53,7 +53,7 @@ body {
     font-family: 'pp_neue_machinaplain_regular', sans-serif;
 }
 
-#landing-page {
+#home-page {
     height: 100vh;
 }
 
@@ -81,13 +81,14 @@ body {
     padding: 1em 0;
 }
 
-#brand-title {
+#brand-title, .section-title {
     text-transform: uppercase;
     font-size: 3.5rem;
     font-family: 'pp_neue_machinaplain_light';
+    letter-spacing: 0.2em;
 }
 
-#brand-subtitle {
+#brand-subtitle, .home-button, .section-subtitle {
     font-family: 'pp_neue_machinaplain_light';
     text-transform: uppercase;
 }
@@ -133,4 +134,34 @@ body {
     width: 400px;
     grid-area: video;
     justify-self: center;
+}
+#about-page {
+    height: 100vh;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-title {
+    padding: 1em 1em 0 1em
+}
+
+.home-button {
+    text-decoration: none;
+    color: #fff;
+    padding: 4em;
+    letter-spacing: 0.2em;
+}
+
+.section-subtitle {
+    margin-top: -1em;
+    padding-left: 3.5em;
+    padding-bottom: 3.5em;
+}
+
+.section-text {
+    width: 70%;
+    margin: 0 auto;
 }

@@ -81,7 +81,7 @@ body {
     padding: 1em 0;
 }
 
-#brand-title, .section-title {
+#brand-title, .section-title, #services-list {
     text-transform: uppercase;
     font-size: 3.5rem;
     font-family: 'pp_neue_machinaplain_light';
@@ -135,7 +135,7 @@ body {
     grid-area: video;
     justify-self: center;
 }
-#about-page {
+#about-page, #services-page, #artist-page, #visual-page, #creative-page {
     height: 100vh;
 }
 
@@ -164,4 +164,23 @@ body {
 .section-text {
     width: 70%;
     margin: 0 auto;
+}
+
+#creative-title {
+    font-size: 3.4em;
+}
+
+#services-list {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.service-title {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
 }

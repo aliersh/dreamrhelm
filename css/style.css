@@ -166,8 +166,8 @@ body {
     margin: 0 auto;
 }
 
-#creative-title {
-    font-size: 3.4em;
+#creative-title, #visual-title  {
+    font-size: 3.1em;
 }
 
 #services-list {
